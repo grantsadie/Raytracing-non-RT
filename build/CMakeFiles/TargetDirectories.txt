@@ -1,0 +1,3 @@
+/media/grant/LinuxExtra/mydev/raytracing/build/CMakeFiles/my_program.dir
+/media/grant/LinuxExtra/mydev/raytracing/build/CMakeFiles/edit_cache.dir
+/media/grant/LinuxExtra/mydev/raytracing/build/CMakeFiles/rebuild_cache.dir

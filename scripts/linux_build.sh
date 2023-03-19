@@ -1,15 +1,20 @@
 #!/bin/bash
 
-BUILD_DIR="build_debug_linux"
+BUILD_DIRS="build_dirs"
+BUILD_LINUX_DEBUG="build_debug_linux"
 
 # Create the build directory if it doesn't exist
-if [ ! -d "$BUILD_DIR" ]; then
-    mkdir "$BUILD_DIR"
+if [ ! -d "$BUILD_DIRS" ]; then
+    mkdir "$BUILD_DIRS"
 fi
+cd "$BUILD_DIRS"
 
-cd "$BUILD_DIR"
+if [ ! -d "$BUILD_LINUX_DEBUG" ]; then
+    mkdir "$BUILD_LINUX_DEBUG"
+fi
+cd "$BUILD_LINUX_DEBUG"
 
-cmake -DCMAKE_BUILD_TYPE=Debug ..
+cmake -DCMAKE_BUILD_TYPE=Debug ../..
 
 cmake --build .
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Name of the build directory
-BUILD_DIR="build"
+BUILD_DIR="build_debug_linux"
 
 # Create the build directory if it doesn't exist
 if [ ! -d "$BUILD_DIR" ]; then

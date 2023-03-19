@@ -8,7 +8,7 @@
             "name": "Debug",
             "type": "gdb",
             "request": "launch",
-            "target": "./build/my_program",
+            "target": "./build_debug_linux/src/RayTracing",
             "cwd": "${workspaceRoot}",
             "valuesFormatting": "parseText"
         }

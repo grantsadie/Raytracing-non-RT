@@ -1,5 +1,5 @@
-#ifndef RTWEEKEND_H
-#define RTWEEKEND_H
+#ifndef RTUTILS_H
+#define RTUTILS_H
 
 #include <cmath>
 #include <limits>
@@ -42,7 +42,7 @@ inline double clamp(double x, double min, double max) {
 
 // Common Headers
 
-#include "raytracings/ray.h"
+// #include "raytracings/ray.h"
 #include "math/vec3.h"
 
 #endif

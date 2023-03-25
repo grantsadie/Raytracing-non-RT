@@ -6,7 +6,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program":  "${workspaceFolder}/build_dirs/build_debug_linux/apps/RayTracing",
-            "args": [],
+            "args": [">", "image.ppm"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],

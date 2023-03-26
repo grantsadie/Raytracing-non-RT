@@ -4,7 +4,7 @@ project(raytracings)
 
 set(CMAKE_CXX_STANDARD 17)
 
-set(SOURCES ray.cpp hittable.cpp)
+set(SOURCES ray.cpp hittable.cpp material.cpp)
 
 add_library(raytracings ${SOURCES})
 

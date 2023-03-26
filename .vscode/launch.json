@@ -6,7 +6,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program":  "${workspaceFolder}/build_dirs/build_debug_linux/apps/RayTracing",
-            "args": [">", "image.ppm"],
+            "args": [">", "random_in_hemisphere_diffuse.ppm"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],

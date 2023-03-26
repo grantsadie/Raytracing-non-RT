@@ -2,9 +2,20 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build cmake project",
+            "label": "build debug",
             "type": "shell",
             "command": "./scripts/linux_build.sh",
+            "args": ["--debug"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build release",
+            "type": "shell",
+            "command": "./scripts/linux_build.sh",
+            "args": ["--debug"],
             "group": {
                 "kind": "build",
                 "isDefault": true
